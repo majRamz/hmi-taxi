@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HMI Taxi – Achat, vente, location et relais de licences de taxi parisien</title>
+  <meta name="description" content="HMI Taxi, à Bagnolet : achat, vente, location et relais de licences de taxi parisien. Locataires sélectionnés, garanties sérieuses, gestion et contrats pris en charge.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Barre d'infos -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <span>📍 248, rue de Noisy-le-Sec, 93170 Bagnolet</span>
+    <span>🕘 Lundi – vendredi, 9h – 17h · Sur rendez-vous</span>
+  </div>
+</div>
+
+<!-- En-tête -->
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="HMI Taxi, accueil">
+      <img class="logo__img" src="assets/logo-embleme.png" alt="" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+      <span class="logo__badge">TAXI<br>PARISIEN</span>
+      <span class="logo__name"><b>HMI</b> TAXI</span>
+    </a>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#services">Services</a>
+      <a href="#location">Location de licence</a>
+      <a href="#methode">Notre méthode</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact" class="btn btn--red btn--sm">Prendre rendez-vous</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- Hero -->
+<section class="hero">
+  <svg class="hero__tower" viewBox="0 0 200 400" aria-hidden="true">
+    <path d="M100 0 L104 40 L110 120 L122 200 L140 280 L170 400 L130 400 L118 340 L82 340 L70 400 L30 400 L60 280 L78 200 L90 120 L96 40 Z M86 280 L114 280 L110 250 L90 250 Z" />
+  </svg>
+  <div class="container hero__grid">
+  <div class="hero__inner">
+    <p class="eyebrow">Licences de taxi parisien</p>
+    <h1>Vous avez une licence de taxi&nbsp;?<br><span>Confiez-la à des professionnels.</span></h1>
+    <p class="hero__lead">HMI Taxi vous accompagne pour l'achat, la vente, la location et le relais de votre licence. Nous sélectionnons des locataires sérieux, avec de vraies garanties, et nous gérons tout du début à la fin.</p>
+    <div class="hero__cta">
+      <a href="#contact" class="btn btn--red">Prendre rendez-vous</a>
+      <a href="tel:+33185781373" class="btn btn--ghost">Appeler le 01 85 78 13 73</a>
+    </div>
+    <ul class="hero__tags">
+      <li>Achat</li><li>Vente</li><li>Location</li><li>Relais</li>
+    </ul>
+  </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section" id="services">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow eyebrow--dark">Nos services</p>
+      <h2>Achat · Vente · Location · Relais</h2>
+      <p>Un interlocuteur unique pour toutes les opérations autour de votre licence de taxi parisien.</p>
+    </header>
+    <div class="cards">
+      <article class="card">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24"><path d="M3 7h18v12H3zM3 11h18M8 3v4M16 3v4"/></svg>
+        </div>
+        <h3>Achat</h3>
+        <p>Vous souhaitez vous installer à votre compte&nbsp;? Nous vous aidons à trouver une licence et vous accompagnons dans les démarches.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Vente</h3>
+        <p>Vous cédez votre licence&nbsp;? Nous estimons sa valeur, trouvons un acquéreur et suivons la transaction jusqu'au bout.</p>
+      </article>
+      <article class="card card--featured">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3 21 2M17 6l3 3M14.5 8.5l2.5 2.5"/></svg>
+        </div>
+        <h3>Location</h3>
+        <p>Mettez votre licence en location en toute sécurité. Locataires sélectionnés, contrats et loyers gérés par nos soins.</p>
+        <a href="#location" class="card__link">En savoir plus →</a>
+      </article>
+      <article class="card">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6M10 18l-6-6 6-6"/></svg>
+        </div>
+        <h3>Relais</h3>
+        <p>Organisation de relais entre chauffeurs pour exploiter votre véhicule au mieux, dans un cadre clair et sécurisé.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Location de licence -->
+<section class="section section--navy" id="location">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Propriétaires de licence</p>
+      <h2>Vous souhaitez mettre votre licence en location&nbsp;?</h2>
+      <p class="lead">HMI Taxi est là pour ça. Nous vous proposons des locataires sérieux et sélectionnés, avec de véritables garanties, pour louer votre licence en toute sécurité et en toute sérénité.</p>
+      <a href="#contact" class="btn btn--yellow">Confier ma licence</a>
+    </div>
+    <ul class="checklist">
+      <li>
+        <strong>Sélection rigoureuse des locataires</strong>
+        <span>Vérification du parcours, des documents et de la fiabilité de chaque chauffeur.</span>
+      </li>
+      <li>
+        <strong>Garanties fiables et sécurisées</strong>
+        <span>Des garanties réelles pour protéger votre licence et vos revenus.</span>
+      </li>
+      <li>
+        <strong>Gestion et contrats pris en charge</strong>
+        <span>Nous rédigeons les contrats et assurons le suivi administratif.</span>
+      </li>
+      <li>
+        <strong>Paiement des loyers en temps et en heure</strong>
+        <span>Un suivi régulier pour des loyers versés à la date prévue.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Méthode -->
+<section class="section" id="methode">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow eyebrow--dark">Notre méthode</p>
+      <h2>Nous nous occupons de tout, du début à la fin</h2>
+    </header>
+    <ol class="steps">
+      <li>
+        <span class="steps__num">1</span>
+        <h3>Rendez-vous</h3>
+        <p>Nous faisons le point ensemble sur votre licence et vos attentes, à l'agence ou par téléphone.</p>
+      </li>
+      <li>
+        <span class="steps__num">2</span>
+        <h3>Sélection</h3>
+        <p>Nous recherchons et vérifions le bon locataire, acheteur ou vendeur pour votre projet.</p>
+      </li>
+      <li>
+        <span class="steps__num">3</span>
+        <h3>Contrat</h3>
+        <p>Nous préparons les contrats et les garanties, et vous les expliquons clairement avant signature.</p>
+      </li>
+      <li>
+        <span class="steps__num">4</span>
+        <h3>Suivi</h3>
+        <p>Nous restons votre interlocuteur : suivi des loyers, échanges avec le locataire, renouvellements.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- Slogan -->
+<section class="banner">
+  <div class="container">
+    <p><b>HMI TAXI</b> — Votre licence entre de bonnes mains.</p>
+  </div>
+</section>
+
+<!-- À propos -->
+<section class="section section--light" id="apropos">
+  <div class="container split">
+    <div>
+      <p class="eyebrow eyebrow--dark">À propos</p>
+      <h2>Une agence de proximité, au service des taxis parisiens</h2>
+      <p>Installée à Bagnolet, aux portes de Paris, HMI Taxi accompagne les propriétaires de licences et les chauffeurs dans toutes leurs démarches. Notre priorité&nbsp;: la sécurité de votre licence, la transparence des contrats et la régularité des paiements.</p>
+      <p>Nous recevons sur rendez-vous du lundi au vendredi, de 9h à 17h.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="stat__value">4</span><span class="stat__label">métiers : achat, vente, location, relais</span></div>
+      <div class="stat"><span class="stat__value">1</span><span class="stat__label">interlocuteur du début à la fin</span></div>
+      <div class="stat"><span class="stat__value">100&nbsp;%</span><span class="stat__label">des contrats rédigés et suivis par l'agence</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section" id="contact">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow eyebrow--dark">Contact</p>
+      <h2>Prenez rendez-vous</h2>
+      <p>Appelez-nous, écrivez-nous sur WhatsApp ou envoyez votre demande par le formulaire.</p>
+    </header>
+    <div class="contact">
+      <div class="contact__info">
+        <a class="contact__item" href="https://wa.me/33651837072" target="_blank" rel="noopener">
+          <span class="contact__icon contact__icon--wa">
+            <svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>
+          </span>
+          <span><small>WhatsApp</small>06 51 83 70 72</span>
+        </a>
+        <a class="contact__item" href="tel:+33185781373">
+          <span class="contact__icon">
+            <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+          </span>
+          <span><small>Téléphone</small>01 85 78 13 73</span>
+        </a>
+        <a class="contact__item" href="mailto:hmitaxis@gmail.com">
+          <span class="contact__icon contact__icon--red">
+            <svg viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 6l9 7 9-7"/></svg>
+          </span>
+          <span><small>E-mail</small>hmitaxis@gmail.com</span>
+        </a>
+        <div class="contact__item">
+          <span class="contact__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          </span>
+          <span><small>Adresse</small>248, rue de Noisy-le-Sec<br>93170 Bagnolet</span>
+        </div>
+        <div class="contact__hours">
+          <strong>Horaires d'ouverture</strong>
+          Du lundi au vendredi, de 9h à 17h<br>
+          <em>Uniquement sur rendez-vous</em>
+        </div>
+        <div class="contact__qr">
+          <img src="assets/qr-whatsapp.png" width="120" height="120" alt="QR code WhatsApp HMI Taxi : 06 51 83 70 72">
+          <div>
+            <strong>Scannez-moi</strong>
+            Ouvrez l'appareil photo de votre téléphone et scannez ce code pour nous écrire directement sur WhatsApp.
+          </div>
+        </div>
+      </div>
+
+      <form class="form" id="contact-form" novalidate>
+        <div class="form__row">
+          <label>Nom et prénom<input name="nom" required autocomplete="name"></label>
+          <label>Téléphone<input name="tel" type="tel" required autocomplete="tel"></label>
+        </div>
+        <label>E-mail<input name="email" type="email" autocomplete="email"></label>
+        <label>Votre demande
+          <select name="objet">
+            <option>Mettre ma licence en location</option>
+            <option>Vendre ma licence</option>
+            <option>Acheter une licence</option>
+            <option>Relais</option>
+            <option>Autre demande</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" rows="4" placeholder="Précisez votre besoin et vos disponibilités pour un rendez-vous."></textarea></label>
+        <button class="btn btn--red btn--block" type="submit">Envoyer ma demande</button>
+        <p class="form__note" id="form-note">Votre demande s'ouvrira dans votre messagerie, prête à être envoyée à hmitaxis@gmail.com.</p>
+      </form>
+    </div>
+
+    <div class="map">
+      <iframe title="Plan d'accès HMI Taxi" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=248+rue+de+Noisy-le-Sec,+93170+Bagnolet&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <a href="#top" class="logo logo--light">
+        <img class="logo__img logo__img--footer" src="assets/logo-embleme.png" alt="" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <span class="logo__badge">TAXI<br>PARISIEN</span>
+        <span class="logo__name"><b>HMI</b> TAXI</span>
+      </a>
+      <p>Achat · Vente · Location · Relais de licences de taxi parisien.</p>
+    </div>
+    <div>
+      <strong>Contact</strong>
+      <p>248, rue de Noisy-le-Sec, 93170 Bagnolet<br>
+      01 85 78 13 73 · 06 51 83 70 72<br>
+      hmitaxis@gmail.com</p>
+    </div>
+    <div>
+      <strong>Horaires</strong>
+      <p>Lundi – vendredi, 9h – 17h<br>Sur rendez-vous</p>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> HMI Taxi. Tous droits réservés.</span>
+    <a href="mentions-legales.html">Mentions légales</a>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/33651837072" target="_blank" rel="noopener" aria-label="Nous écrire sur WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
